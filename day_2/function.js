@@ -72,4 +72,16 @@ console.log(summ(10,"sam")); //typecasting
 console.log(summ(10,true));
 console.log(summ("krati",true))
 
+let funksion=function sam(){ //this is function expression 
+    console.log("hi");
+}
+//whenever we store a function in variable we call it- function expressiom
+//first class function
+//first class citizen 
+//whenerver js functin run then  global execution unit is created 
+//geu--mcp(memory creation phas) // cep--code exection phase
+// for function new execution unit is created 
+// in mcp phase memory is allocated and then cep - assign values to the variables
+//once code is completed exection unit is deleted.
+
 
