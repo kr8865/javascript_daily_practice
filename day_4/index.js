@@ -45,7 +45,7 @@ console.log(a); //100
 
  //higher order function
  //functions which takes otherfunction as argument or return them
- */
+ 
 
  function a(fn){ // ais hof
     console.log("A");
@@ -63,3 +63,82 @@ function a(){
     }
     return b;
 }
+let f=a();
+*/
+
+
+/*console.log(typeof(true));
+function getboolean(x){
+    let result=[];
+    for(i of x){
+        if(typeof(i)=="boolean"){
+            result.push(i);
+            
+        }
+    }
+    return result;
+}
+
+function getnumber(x){
+    let result=[];
+    for(item of x){
+        if(typeof(i)=="number"){
+            result.push(i);
+        }
+    }
+    return result;
+}
+function getstring(x){
+    let result=[];
+    for(i of x){
+        if(typeof(i)=="string"){
+            result.push(i);
+        }
+    }
+    return result;
+}
+
+
+let x=[1,2,3,false,true,"kratika","hello"];
+let bool=getboolean(x);
+let num=getnumber(x);
+let srt=getstring(x);
+console.log(bool);
+console.log(num);
+console.log(srt);
+*/
+function getboolean(x){
+    return typeof(x)=="boolean";
+}
+function getstring(x){
+    return typeof(x)=="string";
+}
+function getnumber(x){
+    return typeof(x)=="number";
+}
+
+
+
+function check(x,fn){ //takes function as parameter --hof
+    let result=[];
+    for(i of x){
+        if(fn(i)){ //function clling
+            result.push(i);
+        }
+
+    }
+    return result; //return function calling --high order function
+}
+let a=[1,2,3,false,true,"k","h"];
+console.log(check(a,getboolean));
+console.log(check(a,getnumber));
+console.log(check(a,getstring));
+
+let ff=[1,2];
+
+
+
+
+
+
+
