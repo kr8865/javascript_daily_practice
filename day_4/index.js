@@ -19,15 +19,15 @@ console.log(x);// refernce error
 //gec --var--global scope
 
 //
-/* let x=10; //script scope -- global for var
+let x11=10; //script scope -- global for var
 {
     let x=20;
     console.log(x); //block scope  --swarg k darwaze ki vgh se -output-10
 }
 console.log(x); //otput-10
 //block start phase m  ep ni bnta but mcp dubara chlta h
-*/
-/*var x1=10; 
+
+var x1=10; 
 {
     var x1=20;
     console.log(x1); //20
@@ -64,10 +64,10 @@ function a(){
     return b;
 }
 let f=a();
-*/
 
 
-/*console.log(typeof(true));
+
+console.log(typeof(true));
 function getboolean(x){
     let result=[];
     for(i of x){
@@ -106,7 +106,7 @@ let srt=getstring(x);
 console.log(bool);
 console.log(num);
 console.log(srt);
-*/
+
 function getboolean(x){
     return typeof(x)=="boolean";
 }
