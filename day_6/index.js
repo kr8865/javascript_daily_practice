@@ -109,8 +109,9 @@ console.log(todo.toString());//[object object] //prototype
 
  }
  let user1=new user();
-console.log(user1);
+console.log(user1);//new create a function as constructor function whose task is to create objects
 
+//jb bhi construtior func bnao to capital letter senao 
 
 
 
