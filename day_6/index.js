@@ -26,7 +26,7 @@ v();//it should be undefined but print naam?? why becuase function return it ret
 //private methoda bane k lie we use closures
 //
 
-/*function counter(){
+function counter(){
     let count=0;
     function getcount(){
         console.log(count);
@@ -50,7 +50,7 @@ function counter(){
 }
 let counter2=counter();
 console.log(counter1.getcount());
-*/
+
 
 function counter(){
     let count=0;
@@ -97,8 +97,19 @@ console.log(todo.toString());//[object object] //prototype
  //array.push() --dot notation sed for object push(methods)// hence array is objecct
  //eveerything inside js is objecttt 
  //arr.prototype__==Array.prototype.__proto__==Object.protype__
+
+
  //null-Object.prototype--Array.prototype --arr
 
+ //this is called inheritance or prototype (lovely )
+
+ //constructor
+
+ function user(){
+
+ }
+ let user1=new user();
+console.log(user1);
 
 
 
