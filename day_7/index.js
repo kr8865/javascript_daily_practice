@@ -124,3 +124,4 @@ let obc2={
 }
 obc.fn2.call(obc2); //this points to object which is passed as parameter
 obc.fn2.apply(obc2,[1,2,3]);
+obc.fn2.bind(obc2);//bind rhega
