@@ -77,3 +77,12 @@ k();//returnig a promise
 
 //async always work with await 
 
+//DOM -DOCUMENT OBJECT MODEL
+//documnet -html , object- js,model-manipulate
+
+//browser mujhe document dega 
+//it gives me dom tree 
+//html -->head --link ,title,meta
+// |____> body --tages
+
+//selectors- 5--getelementbyid , getelementbyclass,
